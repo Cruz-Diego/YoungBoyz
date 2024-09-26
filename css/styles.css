@@ -61,21 +61,127 @@ section.even {
 }
 
 
-/*welcome section*/
-#welcome_section {
+/*home*/
+#mainSection {
   width: 100%;
-  height: 1000px;
-  background-color: aqua;
+  height: 850px;
+  padding: 1px 150px 1px 150px;
+  background-color: rgb(206, 43, 43);
   display: flex;
-  justify-content: center;
   align-items: center;
 }
-#welcome_button {
-  background-color: transparent;
-  border: none;
-  cursor: pointer;
-  width: 6rem;
+.imgTitleHome{
+  width: 280px;
 }
-#welcome_button img {
-  width: 9rem;
+.textMain{
+  color: white;
+  font-size: 30px;
+  text-align: left;
+}
+.divText{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+.divImgMain{
+  width: 50%;
+}
+
+#sectionTwo{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.textCollections{
+  color: rgb(255, 255, 255);
+  font-size: 70px;
+  font-weight: 800;
+  text-decoration: underline;
+  background-color:  rgb(206, 43, 43);
+  padding: 185px 30px 190px 30px;
+}
+.textUCY{
+  color: rgb(255, 255, 255);
+  font-size: 70px;
+  font-weight: 800;
+  background-color:  rgb(206, 43, 43);
+  padding: 147px 108px 147px 108px;
+  transform: rotate(90deg);
+}
+
+/*section collections*/
+#mainCollections{
+  background-image: url("/assets/img/img/Imagen_Colecciones-Fondo.jpg");
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+#mainCollections:before{
+  background-image: url("/assets/img/img/Imagen_Colecciones-Fondo.jpg");
+  opacity: 0.5;
+}
+.textMainCollections{
+  color: rgb(255, 255, 255);
+  font-size: 70px;
+  font-weight: 800;
+}
+.divImgMainCollections{
+  display: flex;
+  padding: 1px 150px 1px 150px;
+  gap: 50px;
+}
+.divImgMainCollectionsOne{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  color: rgb(255, 255, 255);
+  font-size: 70px;
+  font-weight: 500;
+  gap: 15px;
+}
+.divImgMainCollectionsTwo{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  color: rgb(255, 255, 255);
+  font-size: 70px;
+  font-weight: 500;
+  gap: 15px;
+}
+
+/*section Up*/
+#sectionUp{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 35px;
+  padding: 1px 250px 1px 250px;
+}
+.imgTitleUp{
+  font-size: 70px;
+  font-weight: 800;
+  color: rgb(206, 43, 43);
+}
+.imgTitleUpTwo{
+  font-size: 40px;
+  font-weight: 600;
+  color: rgb(206, 43, 43);
+}
+.conteinerInfoUp{
+  display: flex;
+  gap: 20px;
+}
+.textMainUp{
+  width: 50%;
+  font-size: 18px;
+  text-align: justify;
+}
+.divImgMainUp{
+  display: flex;
+  width: 50%;
 }
