@@ -206,4 +206,30 @@ section.even {
   display: flex;
   width: 50%;
   gap: 10px;
+  height: 550px;
+}
+
+/*section reftion*/
+#ref{
+  width: 100%;
+  display:flex ;
+  flex-direction: column;
+  align-items: start;
+  padding: 0px 0px 80px 380px;
+ }
+.refTitle{
+  font-size: 18px;
+  font-weight: 600;
+}
+.refContent1{
+   width: 50%;
+   text-align: start;
+}
+.refContent2{
+  width: 50%;
+  text-align: start;
+}
+.refContent3{
+  width: 50%;
+  text-align: start;
 }
